@@ -3,6 +3,7 @@
 {% block title %}{{ post.title }}{% endblock %}
 
 {% block content %}
+<a href="{% url 'blog:list' %}">&#11013 Pagina inicial</a>
     <h2 class="post-title">{{ post.title }}</h2>
     <p class="date">
         <small>
